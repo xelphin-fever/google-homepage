@@ -11,7 +11,7 @@ a{
     text-decoration: none;
 }
 
-
+/*Top Navigaotor*/
 .topnav{
     width:100%;
     padding:15px 20px;
@@ -29,6 +29,7 @@ a{
     width:50px;
     border-radius:50%;
 }
+/*Middle Page*/
 #search-div{
     display:flex;
     flex-direction: column;
@@ -37,6 +38,7 @@ a{
     justify-content:center;
     align-content:center;
 }
+/*Logo*/
 #logo{
     display:block;
     width:15%;
@@ -44,6 +46,7 @@ a{
     align-self:center;
     margin: 20px 0;
 }
+/*Search Bar*/
 .search-form{
     display:block;
     width:30%;
@@ -76,3 +79,4 @@ a{
     transform: translateY(55%);
     color:rgb(167, 167, 167);
 }
+/*Buttons*/
