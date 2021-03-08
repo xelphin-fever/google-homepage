@@ -93,3 +93,14 @@ a{
     padding:15px 15px;
     border-radius:5%;
 }
+/*Link*/
+#text-link{
+    font-size:15px;
+    font-weight: 300;
+    align-self:center;
+}
+#link-espanol{
+    text-decoration:underline;
+    color:blue;
+    align-self:center;
+}
