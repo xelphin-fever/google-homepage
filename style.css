@@ -11,6 +11,9 @@ a{
     color:rgb(49, 49, 49);
     text-decoration: none;
 }
+a:hover{
+    text-decoration:underline;
+}
 
 /*Top Navigaotor*/
 .topnav{
@@ -52,11 +55,11 @@ a{
 /*Search Bar*/
 .search-form{
     display:block;
-    width:30%;
+    width:40%;
     align-self:center;
     height:20px;
     border-radius: 40px;
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    box-shadow: 0.5px 0.5px 0.5px 1px rgba(128, 128, 128, 0.342);
     height:50px;
     position:relative;
 }
@@ -95,6 +98,11 @@ a{
     padding:15px 15px;
     border-radius:5%;
 }
+#box-div div:hover{
+    border-width: 5px;
+    border-color:blue;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
 /*Link*/
 #text-link{
     font-size:15px;
@@ -102,7 +110,6 @@ a{
     align-self:center;
 }
 #link-espanol{
-    text-decoration:underline;
     color:blue;
     align-self:center;
 }
