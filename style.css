@@ -1,6 +1,7 @@
 
 * {
     box-sizing: border-box;
+    color:rgb(75, 75, 75);
 }
 body {
     font-family: Arial;
@@ -80,3 +81,15 @@ a{
     color:rgb(167, 167, 167);
 }
 /*Buttons*/
+#box-div{
+    display:flex;
+    flex-direction: row;
+    align-self:center;
+    margin:20px;
+}
+#box-div div{
+    background-color: rgba(224, 224, 224, 0.37);
+    margin:0 20px;
+    padding:15px 15px;
+    border-radius:5%;
+}
